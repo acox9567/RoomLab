@@ -24,6 +24,9 @@ public class WinningRoom extends Room
 		System.out.println("You found the winning room! Ten points for Gryffindor.");
 		Runner.gameOff();
 	}
-	
 
+	public String toString()
+	{
+		return "W";
+	}
 }
